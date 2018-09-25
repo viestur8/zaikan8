@@ -7,13 +7,11 @@ Rails.application.routes.draw do
 
   root to:'quizes#index
 
-
-
 #Changing the rout from /users/sign_in to /login
 
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'
-  end
+
   #Another beatiful shortcut to registrations
 
     devise_scope :user do
