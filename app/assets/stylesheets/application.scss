@@ -22,7 +22,10 @@
 
   // Default styles
   @import "base/default";
-  
+
 //Partials
   @import "partials/*";
   @import "partials/layout/*";
+
+  // Media queries for a responsive design
+@import "responsive/*";
