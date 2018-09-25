@@ -8,6 +8,8 @@ ruby '2.5.1'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'devise'
+gem 'bootstrap_form'
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
