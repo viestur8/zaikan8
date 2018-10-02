@@ -2,8 +2,11 @@
 <!-- let there be links -->
 <div class="collapse navbar-collapse navbar-right" id="navbar-collapsible-content">
   <ul class="nav navbar-nav ">
-      <%= render collapsible_links_partial_path %>
-
-        </ul>
-      </div>
-      <!-- navbar-collapse -->
+    <% if user_signed_in? %>
+      <%= render 'layouts/navigation/collapsible_elements/signed_in_links' %>
+    <% else %>
+      <%= render 'layouts/navigation/collapsible_elements/non_signed_in_links' %>
+    <% end %>
+  </ul>
+</div>
+<!-- navbar-collapse -->
