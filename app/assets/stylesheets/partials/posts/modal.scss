@@ -6,7 +6,7 @@
     margin: 50px 0;
   }
   .posted-by {
-    color: rgba(0,0,0,0.5);
+    color: rgba(255,0,0,.5);
   }
 }
 
@@ -25,7 +25,7 @@
 .interested {
   text-align: center;
   a {
-    background-color: $navbarColor;
+    background-color: #ff77bc;
     padding: 10px;
     color: white;
     border-radius: 10px;
