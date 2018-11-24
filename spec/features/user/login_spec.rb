@@ -12,5 +12,4 @@ RSpec.feature "Login", :type => :feature do
     find('.login-button').click
     expect(page).to have_selector('#user-settings')
   end
-
 end

@@ -6,7 +6,6 @@
       'layouts/navigation/collapsible_elements/signed_in_links'
     else
 
-      'layout/navigation/collapsible_elements/non_signed_in_links'
       'layouts/navigation/collapsible_elements/non_signed_in_links'
     end
   end

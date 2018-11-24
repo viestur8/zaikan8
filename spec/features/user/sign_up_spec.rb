@@ -15,4 +15,3 @@ RSpec.feature "Sign up", :type => :feature do
   end
 
 end
-view raw
